@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Seed Test Data (for local testing only)</title>
+<link rel="stylesheet" href="portal.css" />
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <h2>Test Data Seeder</h2>
+    <p>This page is <strong>only for testing</strong> results.html, review.html, and
+    revision.html without a real exam-taking flow. Click the button below to fill
+    localStorage with sample data, then open the pages via the nav links.</p>
+    <button class="btn" id="seedBtn">Seed sample data</button>
+    <button class="btn btn-outline" id="clearBtn">Clear all exam data</button>
+    <p id="status" style="margin-top:14px; font-weight:600;"></p>
+    <div class="nav-links" style="margin-top:20px;">
+      <a href="results.html">Go to results.html</a>
+      <a href="review.html">Go to review.html</a>
+      <a href="revision.html">Go to revision.html</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById("seedBtn").addEventListener("click", function () {
+    localStorage.setItem("examSession", JSON.stringify({
+      name: "Rahul Sharma",
+      roll: "21CS045",
+      branch: "Computer Science",
+      semester: "5",
+      subject: "DSA",
+      testType: "Practice Test"
+    }));
+
+    localStorage.setItem("examResults", JSON.stringify({
+      score: 2,
+      correct: 2,
+      wrong: 1,
+      unattempted: 0,
+      timeTakenSeconds: 245,
+      timestamp: Date.now()
+    }));
+
+    // q1 correct, q2 wrong, q3 unattempted
+    localStorage.setItem("examAnswers", JSON.stringify({
+      q1: { selected: [1], status: "correct" },
+      q2: { selected: [0], status: "wrong" },
+      q3: { selected: [], status: "unattempted" }
+    }));
+
+    localStorage.setItem("scoreboard", JSON.stringify([
+      { name: "Rahul Sharma", roll: "21CS045", branch: "Computer Science", subject: "DSA", score: 2, timestamp: Date.now() },
+      { name: "Priya Verma", roll: "21CS012", branch: "Computer Science", subject: "DSA", score: 3, timestamp: Date.now() - 100000 },
+      { name: "Aman Gupta", roll: "21IT031", branch: "Information Technology", subject: "DSA", score: 1, timestamp: Date.now() - 200000 }
+    ]));
+
+    // Leave revisionBookmarks as-is (or empty) so review.html can populate it.
+    if (!localStorage.getItem("revisionBookmarks")) {
+      localStorage.setItem("revisionBookmarks", JSON.stringify([]));
+    }
+
+    document.getElementById("status").textContent = "✅ Sample data seeded. Now open the other pages.";
+  });
+
+  document.getElementById("clearBtn").addEventListener("click", function () {
+    ["examSession", "examResults", "examAnswers", "scoreboard", "revisionBookmarks"].forEach(k => localStorage.removeItem(k));
+    document.getElementById("status").textContent = "🗑 Cleared all exam-related localStorage keys.";
+  });
+</script>
+</body>
+</html>

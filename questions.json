@@ -1,0 +1,251 @@
+[
+  
+  { "id": "em1_q1", "subject": "Engineering Mathematics", "type": "single", "question": "Rolle's Theorem requires which condition regarding f(a) and f(b)?", "options": ["f(a) ≠ f(b)", "f(a) = f(b)", "f(a) > f(b)", "f(a) < f(b)"], "correctAnswers": [1], "explanation": "Rolle's theorem requires f(a) = f(b) so that a stationary point exists between a and b where f'(c) = 0.", "studyLink": "https://en.wikipedia.org/wiki/Rolle%27s_theorem" },
+  { "id": "em1_q2", "subject": "Engineering Mathematics", "type": "single", "question": "Lagrange's Mean Value Theorem states there exists c in (a,b) such that f'(c) equals:", "options": ["(f(b)-f(a))/(b-a)", "f(b)+f(a)", "(f(b)+f(a))/2", "f(b)-f(a)"], "correctAnswers": [0], "explanation": "LMVT states the derivative at some point equals the average rate of change of f over [a,b].", "studyLink": "https://en.wikipedia.org/wiki/Mean_value_theorem" },
+  { "id": "em1_q3", "subject": "Engineering Mathematics", "type": "single", "question": "In the Taylor series expansion of f(x) about point a, the coefficient of (x-a)^n is:", "options": ["f(a)", "f'(a)", "f^(n)(a)/n!", "n!·f(a)"], "correctAnswers": [2], "explanation": "Taylor series coefficients are given by f^(n)(a)/n! for each term in the expansion.", "studyLink": "https://en.wikipedia.org/wiki/Taylor_series" },
+  { "id": "em1_q4", "subject": "Engineering Mathematics", "type": "single", "question": "The eigenvalues of a triangular matrix are:", "options": ["Sum of all elements", "The diagonal elements", "Always zero", "Always equal to each other"], "correctAnswers": [1], "explanation": "For triangular matrices the eigenvalues are simply the entries on the main diagonal.", "studyLink": "https://en.wikipedia.org/wiki/Triangular_matrix" },
+  { "id": "em1_q5", "subject": "Engineering Mathematics", "type": "single", "question": "The rank of a matrix is defined as:", "options": ["Number of rows", "Number of columns", "Number of linearly independent rows/columns", "Determinant value"], "correctAnswers": [2], "explanation": "Rank equals the maximum number of linearly independent rows or columns of the matrix.", "studyLink": "https://en.wikipedia.org/wiki/Rank_(linear_algebra)" },
+  { "id": "em1_q6", "subject": "Engineering Mathematics", "type": "single", "question": "The Cayley-Hamilton theorem states that every square matrix satisfies:", "options": ["Its transpose equation", "Its own characteristic equation", "Its inverse equation", "Its adjoint equation"], "correctAnswers": [1], "explanation": "The theorem states a square matrix satisfies its own characteristic polynomial equation.", "studyLink": "https://en.wikipedia.org/wiki/Cayley%E2%80%93Hamilton_theorem" },
+  { "id": "em1_q7", "subject": "Engineering Mathematics", "type": "single", "question": "If z = f(x,y), ∂z/∂x is called:", "options": ["Total derivative", "Partial derivative with respect to x", "Directional derivative", "Gradient"], "correctAnswers": [1], "explanation": "∂z/∂x measures the rate of change of z with x while y is held constant — a partial derivative.", "studyLink": "https://en.wikipedia.org/wiki/Partial_derivative" },
+  { "id": "em1_q8", "subject": "Engineering Mathematics", "type": "single", "question": "The Jacobian is primarily used to:", "options": ["Solve linear equations", "Change variables in multiple integrals", "Find eigenvalues", "Find matrix rank"], "correctAnswers": [1], "explanation": "The Jacobian determinant accounts for the scaling factor when transforming variables in multiple integration.", "studyLink": "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant" },
+  { "id": "em1_q9", "subject": "Engineering Mathematics", "type": "single", "question": "For a function of two variables, a stationary point is a maximum if (using r, s, t notation):", "options": ["rt−s² > 0 and r > 0", "rt−s² > 0 and r < 0", "rt−s² < 0", "rt−s² = 0"], "correctAnswers": [1], "explanation": "By the second derivative test, rt−s² > 0 with r < 0 indicates a local maximum.", "studyLink": "https://en.wikipedia.org/wiki/Second_partial_derivative_test" },
+  { "id": "em1_q10", "subject": "Engineering Mathematics", "type": "single", "question": "The Beta function B(m,n) is related to the Gamma function by:", "options": ["Γ(m)+Γ(n)", "Γ(m)Γ(n)/Γ(m+n)", "Γ(m)−Γ(n)", "Γ(m+n)/Γ(m)"], "correctAnswers": [1], "explanation": "B(m,n) = Γ(m)Γ(n)/Γ(m+n) is the standard relation between the Beta and Gamma functions.", "studyLink": "https://en.wikipedia.org/wiki/Beta_function" },
+  { "id": "em1_q11", "subject": "Engineering Mathematics", "type": "single", "question": "Γ(n+1) for a positive integer n equals:", "options": ["n!", "(n+1)!", "n", "n²"], "correctAnswers": [0], "explanation": "The Gamma function generalizes the factorial such that Γ(n+1) = n! for non-negative integers.", "studyLink": "https://en.wikipedia.org/wiki/Gamma_function" },
+  { "id": "em1_q12", "subject": "Engineering Mathematics", "type": "single", "question": "The radius of curvature of a curve at a point measures:", "options": ["The slope of the tangent", "The rate of bending of the curve", "The area under the curve", "The length of the curve"], "correctAnswers": [1], "explanation": "Radius of curvature is the reciprocal of curvature and quantifies how sharply a curve bends at a point.", "studyLink": "https://en.wikipedia.org/wiki/Radius_of_curvature" },
+  { "id": "em1_q13", "subject": "Engineering Mathematics", "type": "single", "question": "Divergence of a vector field F represents:", "options": ["Rotation of the field", "Net outward flux per unit volume", "Magnitude of the field", "Direction of steepest ascent"], "correctAnswers": [1], "explanation": "Divergence measures the net flux of a vector field out of an infinitesimal volume, indicating sources or sinks.", "studyLink": "https://en.wikipedia.org/wiki/Divergence" },
+  { "id": "em1_q14", "subject": "Engineering Mathematics", "type": "single", "question": "Curl of a vector field measures:", "options": ["Its rotation or circulation", "Its magnitude", "Its divergence", "Its potential"], "correctAnswers": [0], "explanation": "Curl quantifies the rotational tendency or circulation of a vector field at a point.", "studyLink": "https://en.wikipedia.org/wiki/Curl_(mathematics)" },
+  { "id": "em1_q15", "subject": "Engineering Mathematics", "type": "single", "question": "The gradient of a scalar field points in the direction of:", "options": ["Steepest descent", "Steepest ascent", "No change", "Zero magnitude always"], "correctAnswers": [1], "explanation": "The gradient vector points in the direction of the maximum rate of increase of the scalar field.", "studyLink": "https://en.wikipedia.org/wiki/Gradient" },
+  { "id": "em1_q16", "subject": "Engineering Mathematics", "type": "multiple", "question": "Which of the following are true about eigenvalues of a symmetric matrix?", "options": ["They are always real", "They are always complex", "Eigenvectors for distinct eigenvalues are orthogonal", "They are always negative"], "correctAnswers": [0, 2], "explanation": "Symmetric matrices have real eigenvalues, and eigenvectors corresponding to distinct eigenvalues are mutually orthogonal.", "studyLink": "https://en.wikipedia.org/wiki/Symmetric_matrix" },
+  { "id": "em1_q17", "subject": "Engineering Mathematics", "type": "multiple", "question": "Which conditions are relevant to a matrix being diagonalizable?", "options": ["It must have n linearly independent eigenvectors", "It must be a square matrix", "It must be singular", "Having all distinct eigenvalues is a sufficient (not necessary) condition"], "correctAnswers": [0, 1, 3], "explanation": "A square matrix is diagonalizable if it has n linearly independent eigenvectors; distinct eigenvalues guarantee this but are not required.", "studyLink": "https://en.wikipedia.org/wiki/Diagonalizable_matrix" },
+  { "id": "em1_q18", "subject": "Engineering Mathematics", "type": "multiple", "question": "Which of the following are properties of an orthogonal matrix A?", "options": ["A·Aᵗ = I", "Its determinant is ±1", "Its rows form an orthonormal set", "It is always symmetric"], "correctAnswers": [0, 1, 2], "explanation": "Orthogonal matrices satisfy A·Aᵗ = I, have determinant ±1, and their rows/columns form orthonormal sets; they need not be symmetric.", "studyLink": "https://en.wikipedia.org/wiki/Orthogonal_matrix" },
+  { "id": "em1_q19", "subject": "Engineering Mathematics", "type": "multiple", "question": "Which of the following vector calculus identities are correct?", "options": ["curl(grad f) = 0", "div(curl F) = 0", "grad(div F) = 0 always", "curl(curl F) = grad(div F) − ∇²F"], "correctAnswers": [0, 1, 3], "explanation": "Curl of a gradient and divergence of a curl are always zero, and the standard vector identity for curl-of-curl holds; grad(div F) is not generally zero.", "studyLink": "https://en.wikipedia.org/wiki/Vector_calculus_identities" },
+  { "id": "em1_q20", "subject": "Engineering Mathematics", "type": "multiple", "question": "Which of the following are valid convergence tests for positive-term series?", "options": ["Ratio test", "D'Alembert's test", "Comparison test", "Rolle's theorem"], "correctAnswers": [0, 1, 2], "explanation": "Ratio test, D'Alembert's test, and comparison test are standard convergence tests; Rolle's theorem is unrelated to series convergence.", "studyLink": "https://en.wikipedia.org/wiki/Convergence_tests" }
+
+
+  { "id": "phy_q1", "subject": "Physics", "type": "single", "question": "Young's double slit experiment demonstrates:", "options": ["Diffraction of light", "Polarization of light", "Interference of light", "Dispersion of light"], "correctAnswers": [2], "explanation": "Young's double slit experiment shows interference fringes from the superposition of coherent light waves.", "studyLink": "https://en.wikipedia.org/wiki/Double-slit_experiment" },
+  { "id": "phy_q2", "subject": "Physics", "type": "single", "question": "Diffraction of light occurs when light:", "options": ["Passes through a narrow slit/obstacle", "Reflects from a mirror", "Travels through vacuum", "Is absorbed by a black body"], "correctAnswers": [0], "explanation": "Diffraction is the bending of light waves around obstacles or through narrow apertures comparable to its wavelength.", "studyLink": "https://en.wikipedia.org/wiki/Diffraction" },
+  { "id": "phy_q3", "subject": "Physics", "type": "single", "question": "Polarization of light refers to:", "options": ["Change in frequency", "Change in speed", "Restriction of vibration to a single plane", "Change in wavelength"], "correctAnswers": [2], "explanation": "Polarization restricts the oscillation of light's electric field vector to a particular plane.", "studyLink": "https://en.wikipedia.org/wiki/Polarization_(waves)" },
+  { "id": "phy_q4", "subject": "Physics", "type": "single", "question": "LASER stands for:", "options": ["Light Amplification by Stimulated Emission of Radiation", "Light Absorption by Stimulated Emission of Radiation", "Light Amplification by Spontaneous Emission of Radiation", "Linear Amplification of Stimulated Emission"], "correctAnswers": [0], "explanation": "LASER is an acronym for Light Amplification by Stimulated Emission of Radiation.", "studyLink": "https://en.wikipedia.org/wiki/Laser" },
+  { "id": "phy_q5", "subject": "Physics", "type": "single", "question": "Population inversion in a laser medium refers to:", "options": ["More atoms in the ground state than the excited state", "More atoms in the excited state than the ground state", "Equal atoms in both states", "No atoms in the excited state"], "correctAnswers": [1], "explanation": "Population inversion means most atoms occupy a higher energy state than the ground state, enabling stimulated emission to dominate.", "studyLink": "https://en.wikipedia.org/wiki/Population_inversion" },
+  { "id": "phy_q6", "subject": "Physics", "type": "single", "question": "The de Broglie wavelength of a particle is given by λ =", "options": ["h/p", "hp", "p/h", "h·p²"], "correctAnswers": [0], "explanation": "De Broglie's hypothesis gives wavelength λ = h/p, where h is Planck's constant and p is momentum.", "studyLink": "https://en.wikipedia.org/wiki/Matter_wave" },
+  { "id": "phy_q7", "subject": "Physics", "type": "single", "question": "Heisenberg's Uncertainty Principle states that:", "options": ["Position and momentum can both be measured exactly", "Δx·Δp ≥ ħ/2", "Energy is always conserved", "The velocity of light is constant"], "correctAnswers": [1], "explanation": "The uncertainty principle sets a fundamental limit Δx·Δp ≥ ħ/2 on simultaneously knowing position and momentum precisely.", "studyLink": "https://en.wikipedia.org/wiki/Uncertainty_principle" },
+  { "id": "phy_q8", "subject": "Physics", "type": "single", "question": "A semiconductor's conductivity increases with temperature mainly because:", "options": ["More electrons break covalent bonds and enter the conduction band", "Atoms vibrate less", "Fewer charge carriers are generated", "Resistance increases"], "correctAnswers": [0], "explanation": "Rising temperature provides thermal energy for electrons to jump the bandgap into the conduction band, increasing carrier density.", "studyLink": "https://en.wikipedia.org/wiki/Semiconductor" },
+  { "id": "phy_q9", "subject": "Physics", "type": "single", "question": "In an intrinsic semiconductor, the number of free electrons is:", "options": ["Much greater than the number of holes", "Much less than the number of holes", "Equal to the number of holes", "Zero"], "correctAnswers": [2], "explanation": "In a pure (intrinsic) semiconductor, thermally generated electron-hole pairs occur in equal numbers.", "studyLink": "https://en.wikipedia.org/wiki/Semiconductor" },
+  { "id": "phy_q10", "subject": "Physics", "type": "single", "question": "An optical fiber guides light along its length using the principle of:", "options": ["Refraction", "Total internal reflection", "Diffraction", "Polarization"], "correctAnswers": [1], "explanation": "Light is guided along an optical fiber core by total internal reflection at the core-cladding boundary.", "studyLink": "https://en.wikipedia.org/wiki/Optical_fiber" },
+  { "id": "phy_q11", "subject": "Physics", "type": "single", "question": "The numerical aperture of an optical fiber is related to its:", "options": ["Light-gathering ability", "Physical length", "Weight", "Color"], "correctAnswers": [0], "explanation": "Numerical aperture quantifies the range of angles over which the fiber can accept incoming light.", "studyLink": "https://en.wikipedia.org/wiki/Numerical_aperture" },
+  { "id": "phy_q12", "subject": "Physics", "type": "single", "question": "The Compton effect demonstrates:", "options": ["The wave nature of light only", "The particle nature of light (photon momentum)", "That light has no energy", "That light travels faster in a denser medium"], "correctAnswers": [1], "explanation": "The Compton effect shows photons carry momentum, scattering off electrons and shifting wavelength, confirming light's particle nature.", "studyLink": "https://en.wikipedia.org/wiki/Compton_scattering" },
+  { "id": "phy_q13", "subject": "Physics", "type": "single", "question": "In a Michelson interferometer, moving one mirror by a distance λ/4 changes the optical path difference by:", "options": ["λ/4", "λ/2", "λ", "2λ"], "correctAnswers": [1], "explanation": "Moving a mirror by a distance d changes the round-trip path by 2d, so a λ/4 shift changes the path difference by λ/2.", "studyLink": "https://en.wikipedia.org/wiki/Michelson_interferometer" },
+  { "id": "phy_q14", "subject": "Physics", "type": "single", "question": "The photoelectric effect could not be explained by classical wave theory because:", "options": ["Emission was instantaneous at any frequency", "The kinetic energy of photoelectrons was independent of intensity but depended on frequency", "Light must have zero energy", "Electrons never left the metal"], "correctAnswers": [1], "explanation": "Classical theory predicted photoelectron energy should depend on intensity, but experiment showed it depends only on frequency above a threshold — explained by Einstein's photon model.", "studyLink": "https://en.wikipedia.org/wiki/Photoelectric_effect" },
+  { "id": "phy_q15", "subject": "Physics", "type": "single", "question": "The Fermi level in a semiconductor represents:", "options": ["The energy level with 50% probability of occupation", "The highest occupied energy level at 0K only", "The bottom of the conduction band", "The top of the valence band"], "correctAnswers": [0], "explanation": "The Fermi level is the energy level at which the probability of electron occupation is exactly 50%, per Fermi-Dirac statistics.", "studyLink": "https://en.wikipedia.org/wiki/Fermi_level" },
+  { "id": "phy_q16", "subject": "Physics", "type": "multiple", "question": "Which of the following are properties of laser light?", "options": ["Highly monochromatic", "Highly coherent", "Highly directional", "Always white light"], "correctAnswers": [0, 1, 2], "explanation": "Laser light is characterized by monochromaticity, coherence, and high directionality — not by being white light.", "studyLink": "https://en.wikipedia.org/wiki/Laser" },
+  { "id": "phy_q17", "subject": "Physics", "type": "multiple", "question": "Which of the following are required components of a typical laser system?", "options": ["Active medium", "Pumping source", "Optical resonator (mirrors)", "A prism is a mandatory component"], "correctAnswers": [0, 1, 2], "explanation": "A functioning laser needs an active gain medium, a pumping mechanism, and an optical cavity; a prism is not mandatory.", "studyLink": "https://en.wikipedia.org/wiki/Laser" },
+  { "id": "phy_q18", "subject": "Physics", "type": "multiple", "question": "Which statements about total internal reflection are correct?", "options": ["Occurs when light passes from a denser to a rarer medium", "Occurs only above the critical angle", "Occurs when light passes from a rarer to a denser medium", "Is the principle behind optical fibers"], "correctAnswers": [0, 1, 3], "explanation": "Total internal reflection happens when light travels from a denser to a rarer medium at an angle greater than the critical angle, and it underlies optical fiber transmission.", "studyLink": "https://en.wikipedia.org/wiki/Total_internal_reflection" },
+  { "id": "phy_q19", "subject": "Physics", "type": "multiple", "question": "Which of the following are wave phenomena exhibited by light?", "options": ["Interference", "Diffraction", "Polarization", "Photoelectric emission"], "correctAnswers": [0, 1, 2], "explanation": "Interference, diffraction, and polarization are wave phenomena; the photoelectric effect instead demonstrates light's particle nature.", "studyLink": "https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality" },
+  { "id": "phy_q20", "subject": "Physics", "type": "multiple", "question": "Which of the following statements about semiconductors are true?", "options": ["Doping increases conductivity", "N-type semiconductors have excess electrons", "P-type semiconductors have excess holes", "Intrinsic semiconductors have higher conductivity than doped ones"], "correctAnswers": [0, 1, 2], "explanation": "Doping increases conductivity by adding excess electrons (n-type) or holes (p-type); doped semiconductors have higher conductivity than intrinsic ones, not lower.", "studyLink": "https://en.wikipedia.org/wiki/Extrinsic_semiconductor" }
+
+  {
+    "id": "q1",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What is the time complexity of binary search on a sorted array of n elements?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "correctAnswers": [1],
+    "explanation": "Binary search halves the search space each step, giving O(log n) time complexity.",
+    "studyLink": "https://en.wikipedia.org/wiki/Binary_search_algorithm"
+  },
+  {
+    "id": "q2",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which data structure uses LIFO (Last In First Out) order?",
+    "options": ["Queue", "Stack", "Linked List", "Tree"],
+    "correctAnswers": [1],
+    "explanation": "A stack follows LIFO order — the last element pushed is the first one popped.",
+    "studyLink": "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)"
+  },
+  {
+    "id": "q3",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What is the worst-case time complexity of QuickSort?",
+    "options": ["O(n log n)", "O(n)", "O(n^2)", "O(log n)"],
+    "correctAnswers": [2],
+    "explanation": "QuickSort degrades to O(n^2) when the pivot choices consistently create unbalanced partitions.",
+    "studyLink": "https://en.wikipedia.org/wiki/Quicksort"
+  },
+  {
+    "id": "q4",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which traversal of a Binary Search Tree yields nodes in sorted order?",
+    "options": ["Pre-order", "Post-order", "In-order", "Level-order"],
+    "correctAnswers": [2],
+    "explanation": "In-order traversal (Left, Root, Right) visits BST nodes in ascending sorted order.",
+    "studyLink": "https://en.wikipedia.org/wiki/Tree_traversal"
+  },
+  {
+    "id": "q5",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What is the space complexity of an adjacency matrix representation of a graph with V vertices?",
+    "options": ["O(V)", "O(V + E)", "O(V^2)", "O(E)"],
+    "correctAnswers": [2],
+    "explanation": "An adjacency matrix requires a V x V grid, giving O(V^2) space regardless of edge count.",
+    "studyLink": "https://en.wikipedia.org/wiki/Adjacency_matrix"
+  },
+  {
+    "id": "q6",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which algorithm is used to find the shortest path in a graph with non-negative edge weights?",
+    "options": ["Kruskal's Algorithm", "Dijkstra's Algorithm", "Prim's Algorithm", "DFS"],
+    "correctAnswers": [1],
+    "explanation": "Dijkstra's Algorithm finds shortest paths from a source node in graphs with non-negative weights.",
+    "studyLink": "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+  },
+  {
+    "id": "q7",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What does a hash table use to map keys to values?",
+    "options": ["A comparison function", "A hash function", "A sorting function", "A recursive function"],
+    "correctAnswers": [1],
+    "explanation": "Hash tables use a hash function to compute an index into an array of buckets for each key.",
+    "studyLink": "https://en.wikipedia.org/wiki/Hash_table"
+  },
+  {
+    "id": "q8",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which of the following sorting algorithms is stable?",
+    "options": ["QuickSort", "HeapSort", "MergeSort", "Selection Sort"],
+    "correctAnswers": [2],
+    "explanation": "MergeSort is a stable sort because it preserves the relative order of equal elements.",
+    "studyLink": "https://en.wikipedia.org/wiki/Sorting_algorithm#Stability"
+  },
+  {
+    "id": "q9",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What is the time complexity of inserting an element at the head of a singly linked list?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+    "correctAnswers": [0],
+    "explanation": "Inserting at the head only requires updating the head pointer, so it takes constant time O(1).",
+    "studyLink": "https://en.wikipedia.org/wiki/Linked_list"
+  },
+  {
+    "id": "q10",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which data structure is ideally used to implement a priority queue?",
+    "options": ["Array", "Heap", "Stack", "Linked List"],
+    "correctAnswers": [1],
+    "explanation": "A binary heap efficiently supports insertion and extraction of the min/max element, ideal for priority queues.",
+    "studyLink": "https://en.wikipedia.org/wiki/Priority_queue"
+  },
+  {
+    "id": "q11",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What is the height of a balanced binary search tree with n nodes?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "correctAnswers": [1],
+    "explanation": "A balanced BST keeps its height at O(log n), enabling efficient search, insert, and delete.",
+    "studyLink": "https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree"
+  },
+  {
+    "id": "q12",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which technique does Dynamic Programming rely on to avoid recomputation?",
+    "options": ["Recursion only", "Memoization / Tabulation", "Greedy choice", "Backtracking"],
+    "correctAnswers": [1],
+    "explanation": "Dynamic Programming stores results of subproblems (memoization or tabulation) to avoid recomputation.",
+    "studyLink": "https://en.wikipedia.org/wiki/Dynamic_programming"
+  },
+  {
+    "id": "q13",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] In a min-heap, where is the smallest element always located?",
+    "options": ["At the last leaf", "At the root", "At a random position", "At the middle"],
+    "correctAnswers": [1],
+    "explanation": "In a min-heap, the root node always holds the minimum value in the heap.",
+    "studyLink": "https://en.wikipedia.org/wiki/Binary_heap"
+  },
+  {
+    "id": "q14",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] What is the average time complexity of searching in a well-implemented hash table?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "correctAnswers": [0],
+    "explanation": "With a good hash function and low load factor, hash table lookups average O(1) time.",
+    "studyLink": "https://en.wikipedia.org/wiki/Hash_table"
+  },
+  {
+    "id": "q15",
+    "subject": "DSA",
+    "type": "single",
+    "question": "[SAMPLE] Which algorithm technique does the classic 'Knapsack Problem' (0/1 version) typically use for an optimal solution?",
+    "options": ["Greedy", "Divide and Conquer", "Dynamic Programming", "Brute-force only"],
+    "correctAnswers": [2],
+    "explanation": "The 0/1 Knapsack problem is a classic Dynamic Programming problem since items can't be fractionally taken.",
+    "studyLink": "https://en.wikipedia.org/wiki/Knapsack_problem"
+  },
+  {
+    "id": "q16",
+    "subject": "DSA",
+    "type": "multiple",
+    "question": "[SAMPLE] Which of the following data structures allow O(1) average time insertion? (Select all that apply)",
+    "options": ["Hash Table", "Dynamic Array (amortized, at end)", "Balanced BST", "Stack (array-based)"],
+    "correctAnswers": [0, 1, 3],
+    "explanation": "Hash tables, dynamic arrays (amortized push-back), and array-based stacks all support O(1) average insertion; balanced BSTs take O(log n).",
+    "studyLink": "https://en.wikipedia.org/wiki/Amortized_analysis"
+  },
+  {
+    "id": "q17",
+    "subject": "DSA",
+    "type": "multiple",
+    "question": "[SAMPLE] Which of the following are stable sorting algorithms? (Select all that apply)",
+    "options": ["Merge Sort", "Bubble Sort", "Quick Sort", "Insertion Sort"],
+    "correctAnswers": [0, 1, 3],
+    "explanation": "Merge Sort, Bubble Sort, and Insertion Sort are stable; standard Quick Sort is not.",
+    "studyLink": "https://en.wikipedia.org/wiki/Sorting_algorithm#Stability"
+  },
+  {
+    "id": "q18",
+    "subject": "DSA",
+    "type": "multiple",
+    "question": "[SAMPLE] Which of the following traversal methods are used for trees? (Select all that apply)",
+    "options": ["In-order", "Pre-order", "Binary Search", "Post-order"],
+    "correctAnswers": [0, 1, 3],
+    "explanation": "In-order, Pre-order, and Post-order are standard tree traversal methods; Binary Search is a search algorithm, not a traversal.",
+    "studyLink": "https://en.wikipedia.org/wiki/Tree_traversal"
+  },
+  {
+    "id": "q19",
+    "subject": "DSA",
+    "type": "multiple",
+    "question": "[SAMPLE] Which of the following are examples of divide-and-conquer algorithms? (Select all that apply)",
+    "options": ["Merge Sort", "Binary Search", "Linear Search", "Quick Sort"],
+    "correctAnswers": [0, 1, 3],
+    "explanation": "Merge Sort, Binary Search, and Quick Sort all divide the problem into smaller subproblems; Linear Search does not.",
+    "studyLink": "https://en.wikipedia.org/wiki/Divide-and-conquer_algorithm"
+  },
+  {
+    "id": "q20",
+    "subject": "DSA",
+    "type": "multiple",
+    "question": "[SAMPLE] Which of the following statements about graphs are true? (Select all that apply)",
+    "options": [
+      "A tree is a connected acyclic graph",
+      "BFS uses a queue for traversal",
+      "DFS uses a queue for traversal",
+      "A graph with V vertices and no cycles has at most V-1 edges (if a tree)"
+    ],
+    "correctAnswers": [0, 1, 3],
+    "explanation": "Trees are connected acyclic graphs, BFS uses a queue, and a tree with V vertices has exactly V-1 edges. DFS uses a stack (or recursion), not a queue.",
+    "studyLink": "https://en.wikipedia.org/wiki/Graph_traversal"
+  }
+]

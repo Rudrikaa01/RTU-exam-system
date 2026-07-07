@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+  This project uses localStorage instead of a real backend/database,
+  for a simplified beginner build. Everything (registration info,
+  subject choice, etc.) is stored in the browser only.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam Portal - Registration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- ===================== SECTION 1: REGISTRATION FORM ===================== -->
+    <section id="registration-section" class="card">
+      <h1>Student Registration</h1>
+      <p class="subtitle">Please fill in your details to begin.</p>
+
+      <form id="registration-form">
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" placeholder="e.g. Rahul Sharma" />
+        </div>
+
+        <div class="form-group">
+          <label for="rollNumber">Roll Number</label>
+          <input type="text" id="rollNumber" placeholder="e.g. 21CS045" />
+        </div>
+
+        <div class="form-group">
+          <label for="branch">Branch</label>
+          <select id="branch">
+            <option value="CS">CS (Computer Science)</option>
+            <option value="IT">IT (Information Technology)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="semester">Semester</label>
+          <select id="semester">
+            <option value="1">1st Semester</option>
+            <option value="2">2nd Semester</option>
+            <option value="3">3rd Semester</option>
+            <option value="4">4th Semester</option>
+          </select>
+        </div>
+
+        <p id="registration-error" class="error-text"></p>
+
+        <button type="submit" class="btn-primary">Continue</button>
+      </form>
+    </section>
+
+    <!-- ===================== SECTION 2: SUBJECT SELECTION ===================== -->
+    <section id="subject-section" class="card hidden">
+      <h1>Select Your Subject</h1>
+      <p class="subtitle">
+        Showing subjects for <span id="student-summary"></span>
+      </p>
+
+      <div id="subject-list" class="subject-list">
+        <!-- Subject buttons are inserted here by JavaScript -->
+      </div>
+
+      <button id="back-to-registration" class="btn-secondary">&larr; Back</button>
+    </section>
+
+    <!-- ===================== SECTION 3: START TEST ===================== -->
+    <section id="start-section" class="card hidden">
+      <h1>Ready to Begin</h1>
+      <p class="subtitle">
+        Subject: <strong id="selected-subject-name"></strong><br />
+        Test type: 20 questions, full subject
+      </p>
+
+      <button id="start-test-btn" class="btn-primary">Start Test</button>
+      <button id="back-to-subjects" class="btn-secondary">&larr; Choose a different subject</button>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

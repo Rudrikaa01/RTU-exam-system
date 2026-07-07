@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Results | Exam Portal</title>
+<link rel="stylesheet" href="portal.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <h1>📊 Exam Results</h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="review.html">Review Answers</a>
+      <a href="revision.html">Revision List</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Score summary -->
+  <div class="card score-hero" id="scoreHero">
+    <div class="loading">Loading your results…</div>
+  </div>
+
+  <!-- Candidate info -->
+  <div class="card" id="candidateCard" style="display:none;"></div>
+
+  <!-- Leaderboard -->
+  <div class="card">
+    <div class="section-title">🏆 Leaderboard (this device)</div>
+    <div id="leaderboardWrap">
+      <div class="loading">Loading leaderboard…</div>
+    </div>
+  </div>
+
+  <div class="card" style="text-align:center;">
+    <a href="review.html" class="btn">Review My Answers →</a>
+  </div>
+
+</div>
+
+<script src="results.js"></script>
+</body>
+</html>
