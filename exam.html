@@ -1,25 +1,26 @@
+<!--initialises the webpage-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">  <!--page lang is english -->
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Exam In Progress</title>
-<link rel="stylesheet" href="exam.css">
+<meta charset="UTF-8"> <!--displays @,& checkbox-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   <!--without it mobile layout becomes zoomed-->
+<title>Exam In Progress</title>   
+<link rel="stylesheet" href="exam.css"> <!--connects html page with css-->
 </head>
 <body>
 
   <!-- Fixed timer, always visible top-right -->
-  <div id="timer-box">
-    <span id="timer-label">Time Left</span>
+  <div id="timer-box">   <!--unique ID ; CSS styles it ; java script updates it -->
+    <span id="timer-label">Time Left</span>   <!-- span displays inline text (timer appears inside same container)-->
     <span id="timer-display">30:00</span>
   </div>
 
-  <header id="exam-header">
+  <header id="exam-header">       
     <div class="header-left">
       <h1 id="subject-title">Loading exam...</h1>
       <div id="candidate-info"></div>
-    </div>
-    <button id="submit-btn" class="btn btn-submit">Submit Test</button>
+    </div>          <!--creates container-->
+    <button id="submit-btn" class="btn btn-submit">Submit Test</button> <!--btn (common button styling) btn submit (red button submit)-->
   </header>
 
   <div id="exam-body">
@@ -66,7 +67,7 @@
 
   </div>
 
-  <!-- Confirmation modal for submit -->
+  <!-- Confirmation modal for submit --> <!--creates confirmation popup-->
   <div id="submit-modal" class="modal-overlay hidden">
     <div class="modal-box">
       <h2>Submit Test?</h2>

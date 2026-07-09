@@ -3,20 +3,20 @@
 }
 
 body {
-  margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0; /*removes white space*/
+  font-family: 'Segoe UI', Arial, sans-serif;  /*font */
   background: #f4f6f9;
   color: #1f2937;
 }
 
 /* ---------- Fixed Timer ---------- */
-#timer-box {
-  position: fixed;
+#timer-box {          /* top right corner */
+  position: fixed;    /*keeps time fixed on screen , even when scrolling*/
   top: 16px;
   right: 16px;
   background: #1f2937;
   color: #ffffff;
-  padding: 10px 18px;
+  padding: 10px 18px;    /*adss space inside timer */
   border-radius: 10px;
   text-align: center;
   z-index: 1000;
@@ -24,7 +24,7 @@ body {
   min-width: 120px;
 }
 
-#timer-box.timer-warning {
+#timer-box.timer-warning {     /*when only one min remains ; timer becomes red */
   background: #b91c1c;
   animation: pulse 1s infinite;
 }
@@ -58,7 +58,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e5e7eb;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  /*allows item to move to next line if needed */
   gap: 10px;
 }
 
@@ -75,11 +75,11 @@ body {
 
 /* ---------- Layout ---------- */
 #exam-body {
-  display: flex;
+  display: flex;   /*creates two panel --> question and palette */
   gap: 20px;
   padding: 20px 24px 60px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;    /*centres webpage horizontally */
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -99,7 +99,7 @@ body {
   border-radius: 12px;
   padding: 18px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-  position: sticky;
+  position: sticky;     /*position remains visible while scrolling */
   top: 20px;
 }
 
@@ -152,11 +152,11 @@ body {
   padding: 12px 14px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-  cursor: pointer;
+  cursor: pointer;    /*shows hand cursor*/
   transition: background 0.15s, border-color 0.15s;
 }
 
-.option-label:hover {
+.option-label:hover {     /*changes color of selected option*/
   background: #f9fafb;
   border-color: #c7d2fe;
 }
@@ -185,11 +185,11 @@ body {
   color: #fff;
 }
 
-.btn:active {
+.btn:active {              /*runs when button is clicked */
   transform: scale(0.97);
 }
 
-.btn:hover {
+.btn:hover {               /*runs when mouse is over button */
   opacity: 0.9;
 }
 
@@ -287,7 +287,7 @@ body {
 }
 
 /* ---------- Modal ---------- */
-.modal-overlay {
+.modal-overlay {       /*creates dark transparent background*/
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.5);
@@ -301,7 +301,7 @@ body {
   display: none;
 }
 
-.modal-box {
+.modal-box {           /*creates popup --> submit exam? cancel submit */
   background: #fff;
   border-radius: 12px;
   padding: 28px;
@@ -322,7 +322,7 @@ body {
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 800px) {
+@media (max-width: 800px) {      /*makes webpage mobile friendly*/
   #exam-body {
     flex-direction: column;
   }
